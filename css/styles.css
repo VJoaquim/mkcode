@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  overflow: hidden;
+  color: #473A37;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.page--cadastro__background {
+  width: 100vw;
+  height: 100vh;
+  background: url('../assets/bg.png') center center;
+  background-size: cover;
+}
+
+.logo {
+  width: 204px;
+  height: 34px;
+  margin-bottom: 24px;
+}
+
+/*
+ * ESTILOS DEFAULT
+ */
+.input {
+  width: 350px;
+  height: 32px;
+  border-radius: 2px;
+  border: 1px solid #D3D3D3;
+  padding: 8px;
+}
+
+.input::placeholder {
+  color: #666666;
+  font-family: 'Nunito';
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.button {
+  width: 350px;
+  height: 38px;
+  border-radius: 2px;
+  background: #FC4100;
+  border: 0;
+  color: #FFF;
+  font-family: 'Nunito';
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.formulario__title {
+  font-family: 'Nunito';
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*
+ * PAGE: CADASTRO
+ */
+
+.page--cadastro--formulario {
+  display:  flex;
+  align-items: center;
+}
+
+.page--cadastro--formulario form {
+  margin: 0 auto;
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page--cadastro--formulario form input:first-of-type {
+  margin-bottom: 16px;
+  margin-top: 34px;
+}
+
+.formulario__link {
+  font-family: 'Nunito';
+  font-weight: normal;
+  color: #666666;
+  text-align: center;
+}
+
+.formulario__link--underline {
+  font-size: 10px;
+  margin-top: 8px;
+}
+
+.formulario__link--underline > a {
+  color: #473A37;
+  text-decoration: underline;
+}
+
+.formulario__link--login > a {
+  color: #FC4100;
+  font-weight: bold;
+}
+
+
+/*
+ * PAGE: LOGIN
+ */
+
